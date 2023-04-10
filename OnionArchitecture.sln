@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitecture.Applicati
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3C33E995-3B3A-442A-987C-B8FB3C096780}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Persistence", "src\Infrastructure\OnionArchitecture.Persistence\OnionArchitecture.Persistence.csproj", "{692D92DF-A149-4CBE-B189-7354635F7687}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitecture.Persistence", "src\Infrastructure\OnionArchitecture.Persistence\OnionArchitecture.Persistence.csproj", "{692D92DF-A149-4CBE-B189-7354635F7687}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
