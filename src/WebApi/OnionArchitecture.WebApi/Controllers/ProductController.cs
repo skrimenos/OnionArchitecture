@@ -12,7 +12,7 @@ namespace OnionArchitecture.WebApi.Controllers
 
         public ProductController(IProductRepository productRepository)
         {
-            productRepository = productRepository;
+            this.productRepository = productRepository;
         }
 
 
