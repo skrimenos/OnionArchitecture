@@ -9,7 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{ADFB338E-0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitecture.Domain", "src\Core\OnionArchitecture.Domain\OnionArchitecture.Domain.csproj", "{D31D5388-2CC2-418D-9991-7D7AD7213A07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Application", "src\Core\OnionArchitecture\OnionArchitecture.Application.csproj", "{E780625B-829B-455F-A122-A3A176B5BC2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitecture.Application", "src\Core\OnionArchitecture\OnionArchitecture.Application.csproj", "{E780625B-829B-455F-A122-A3A176B5BC2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3C33E995-3B3A-442A-987C-B8FB3C096780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Persistence", "src\Infrastructure\OnionArchitecture.Persistence\OnionArchitecture.Persistence.csproj", "{692D92DF-A149-4CBE-B189-7354635F7687}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{E780625B-829B-455F-A122-A3A176B5BC2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E780625B-829B-455F-A122-A3A176B5BC2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E780625B-829B-455F-A122-A3A176B5BC2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692D92DF-A149-4CBE-B189-7354635F7687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692D92DF-A149-4CBE-B189-7354635F7687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692D92DF-A149-4CBE-B189-7354635F7687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692D92DF-A149-4CBE-B189-7354635F7687}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -33,6 +41,8 @@ Global
 		{ADFB338E-0380-4EDA-B103-73AB7FF6A6B9} = {ED6A3430-00E8-4D40-AC3E-AFBB377246D9}
 		{D31D5388-2CC2-418D-9991-7D7AD7213A07} = {ADFB338E-0380-4EDA-B103-73AB7FF6A6B9}
 		{E780625B-829B-455F-A122-A3A176B5BC2E} = {ADFB338E-0380-4EDA-B103-73AB7FF6A6B9}
+		{3C33E995-3B3A-442A-987C-B8FB3C096780} = {ED6A3430-00E8-4D40-AC3E-AFBB377246D9}
+		{692D92DF-A149-4CBE-B189-7354635F7687} = {3C33E995-3B3A-442A-987C-B8FB3C096780}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5B437F16-B1BE-4DB3-802C-AFEA9F8BFCB0}
