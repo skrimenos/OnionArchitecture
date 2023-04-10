@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitecture.Applicati
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3C33E995-3B3A-442A-987C-B8FB3C096780}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Persistence", "src\Infrastructure\OnionArchitecture.Persistence\OnionArchitecture.Persistence.csproj", "{692D92DF-A149-4CBE-B189-7354635F7687}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitecture.Persistence", "src\Infrastructure\OnionArchitecture.Persistence\OnionArchitecture.Persistence.csproj", "{692D92DF-A149-4CBE-B189-7354635F7687}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{EC102112-BC27-4A2F-92EC-68ECC8D41F04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.WebApi", "src\WebApi\OnionArchitecture.WebApi\OnionArchitecture.WebApi.csproj", "{8481A403-DE80-42DE-8328-084C3C4AC834}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,10 @@ Global
 		{692D92DF-A149-4CBE-B189-7354635F7687}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{692D92DF-A149-4CBE-B189-7354635F7687}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{692D92DF-A149-4CBE-B189-7354635F7687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8481A403-DE80-42DE-8328-084C3C4AC834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8481A403-DE80-42DE-8328-084C3C4AC834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8481A403-DE80-42DE-8328-084C3C4AC834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8481A403-DE80-42DE-8328-084C3C4AC834}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +51,8 @@ Global
 		{E780625B-829B-455F-A122-A3A176B5BC2E} = {ADFB338E-0380-4EDA-B103-73AB7FF6A6B9}
 		{3C33E995-3B3A-442A-987C-B8FB3C096780} = {ED6A3430-00E8-4D40-AC3E-AFBB377246D9}
 		{692D92DF-A149-4CBE-B189-7354635F7687} = {3C33E995-3B3A-442A-987C-B8FB3C096780}
+		{EC102112-BC27-4A2F-92EC-68ECC8D41F04} = {ED6A3430-00E8-4D40-AC3E-AFBB377246D9}
+		{8481A403-DE80-42DE-8328-084C3C4AC834} = {EC102112-BC27-4A2F-92EC-68ECC8D41F04}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5B437F16-B1BE-4DB3-802C-AFEA9F8BFCB0}
